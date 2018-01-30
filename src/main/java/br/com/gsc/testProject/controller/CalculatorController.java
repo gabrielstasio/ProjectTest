@@ -10,4 +10,10 @@ public class CalculatorController {
     {
         return num1 + num2;
     }
+
+    @RequestMapping(value = Constants.CALCULATOR.PATH + "mult")
+    protected double sum(double num1 , double num2)
+    {
+        return num1 * num2;
+    }
 }
