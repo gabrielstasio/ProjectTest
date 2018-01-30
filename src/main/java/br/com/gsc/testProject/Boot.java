@@ -16,6 +16,8 @@ public class Boot
 
       SpringApplication.run(Boot.class, args);
       System.out.println("Application is running.");
+      Boot boot = new Boot();
+      boot.home();
    }
 
    @GetMapping("/")
