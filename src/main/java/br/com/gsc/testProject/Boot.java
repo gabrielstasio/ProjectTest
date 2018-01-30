@@ -18,6 +18,7 @@ public class Boot
       System.out.println("Application is running.");
       Boot boot = new Boot();
       boot.home();
+      System.out.println("Application is running 2.");
    }
 
    @GetMapping("/")
