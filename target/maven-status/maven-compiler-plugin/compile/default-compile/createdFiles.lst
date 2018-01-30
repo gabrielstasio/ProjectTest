@@ -1,1 +1,4 @@
 br\com\gsc\testProject\Boot.class
+br\com\gsc\testProject\controller\CalculatorController.class
+br\com\gsc\testProject\controller\Constants.class
+br\com\gsc\testProject\controller\Constants$CALCULATOR.class
